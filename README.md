@@ -1,4 +1,4 @@
-# My-education-app
+# MainActivity.kt
 pluginManagement {    repositories {        google()        mavenCentral()        gradlePluginPortal()    }}dependencyResolutionManagement {    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)    repositories {        google()        mavenCentral()    }}rootProject.name = "MyEducationApp"include(":app")
 
 package com.rohan.myeducationapp
