@@ -94,3 +94,22 @@ setContentView(layout)
         setContentView(layout)
     }
 }
+
+subtitle.text = "Learn Anytime, Anywhere"
+subtitle.textSize = 18f
+subtitle.setTextColor(Color.DKGRAY)
+subtitle.gravity = Gravity.CENTER
+
+layout.addView(subtitle)
+
+val button = Button(this)
+button.text = "Start Learning"
+button.setOnClickListener {
+    Toast.makeText(this, "Welcome to My Education App!", Toast.LENGTH_SHORT).show()
+}
+
+layout.addView(button)
+
+setContentView(layout)
+    }
+}
